@@ -8,7 +8,7 @@
 </head>
 <body>
     <div>
-        <div class="header">
+        <header class="header">
             <nav>
                 <ul>
                     <li><a class="menu" href="">PROMOCIONES</a></li>
@@ -23,19 +23,20 @@
                     <div>
                         <img src="images/user.png" alt="Mi cuenta">
                     </div>
-                    <p>Mi cuenta</p>
+                    <p class="miniatura">Mi cuenta</p>
                 </div>
                 <div class="opciones-de-idioma">
-                    <p>ES</p>
+                    <p class="miniatura">ES</p>
                     <div>
                         <img src="images/flag.png" alt="Idioma">
                     </div>
-                    <div>
+                    <div id="arrow">
                         <img src="images/arrow.png" alt="Opciones">
                     </div>
                 </div>
             </div>
-        </div>
+        </header>
+
         <main>
             <div class="banner">
                 <div>
@@ -49,33 +50,128 @@
             </div>
             <div class="citas">
                 <p class="menu" >RESERVA TU CITA: </p>
-                <input class="input" type="text">
+                <input class="input-cita" type="text">
                 <p class="menu" >CÓDIGO PROMOCIONAL: </p>
-                <input class="input" type="text" placeholder="CÓDIGO">
+                <input class="input-codigo" type="text" placeholder="CÓDIGO">
             </div>
             <div class="reservas">
-                <div>
-                    <div>
-                        <p>Masaje de pies</p>
+                <div class="card">
+                    <div class="titulo-masaje">
+                        <p class="titulo-2">Masaje de pies</p>
                     </div>
-                    <div>
+                    <div class="imagen">
                         <img src="images/pies.png" alt="" srcset="">
                     </div>
-                    <p>Esta es una descripcion de la opcion en cuestion ...</p>
-                    <div>
-                        <p></p>
-                        <a href="">RESERVAR</a>
+                    <p class="normal">Esta es una descripcion de la opcion en cuestion ...</p>
+                    <div class="precio-reservar">
+                        <div>
+                            <p class="titulo-2">$65</p>
+                        </div>
+                        <div class="boton-reservar">
+                            <a class="menu" href="">RESERVAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="titulo-masaje">
+                        <p class="titulo-2">Masaje relajante</p>
+                    </div>
+                    <div class="imagen">
+                        <img src="images/relajante.png" alt="" srcset="">
+                    </div>
+                    <p class="normal">Esta es una descripcion de la opcion en cuestion ...</p>
+                    <div class="precio-reservar">
+                        <div>
+                            <p class="titulo-2">$65</p>
+                        </div>
+                        <div class="boton-reservar">
+                            <a class="menu" href="">RESERVAR</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="titulo-masaje">
+                        <p class="titulo-2peq">Masaje con bambú</p>
+                    </div>
+                    <div class="imagen">
+                        <img src="images/bambu.png" alt="" srcset="">
+                    </div>
+                    <p class="normal">Esta es una descripcion de la opcion en cuestion ...</p>
+                    <div class="precio-reservar">
+                        <div>
+                            <p class="titulo-2">$65</p>
+                        </div>
+                        <div class="boton-reservar">
+                            <a class="menu" href="">RESERVAR</a>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="suscripciones">
-    
+                <p class="titulo-2">Haste socio y prueba nuestros beneficios</p>
+                <div class="contenedor-suscripciones">
+                    <div class="suscripcion">
+                        <div class="logo-img">
+                            <img src="images/gold.png" alt="">
+                        </div>
+                        <p class="titulo-2">GOLD</p>
+                        <div class="boton-ver-condiones">
+                            <a class="menu" href="">VER CONDICIONES</a>
+                        </div>
+                        <ul>
+                            <li class="normal">Gimnasio</li>
+                            <li class="normal">Piscina</li>
+                            <li class="normal">Todos los tratamientos</li>
+                        </ul>
+                    </div>
+                    <div class="suscripcion">
+                        <div class="logo-img">
+                            <img src="images/premium.png" alt="">
+                        </div>
+                        <p class="titulo-2">PREMIUM</p>
+                        <div class="boton-ver-condiones">
+                            <a class="menu" href="">VER CONDICIONES</a>
+                        </div>
+                        <ul>
+                            <li class="normal">Gimnasio</li>
+                            <li class="normal">Todos los tratamientos</li>
+                        </ul>
+                    </div>
+                    <div class="suscripcion">
+                        <div class="logo-img">
+                            <img src="images/plate.png" alt="">
+                        </div>
+                        <p class="titulo-2">PLATE</p>
+                        <div class="boton-ver-condiones">
+                            <a class="menu" href="">VER CONDICIONES</a>
+                        </div>
+                        <ul>
+                            <li class="normal">Tratamientos faciales</li>
+                        </ul>
+                    </div>
+
+                </div>
             </div>
             
         </main>
-        <div class="footer">
-    
-        </div>
+        <footer class="footer">
+            <nav>
+                <ul>
+                    <li><a class="menu" href="">POLITICA DE COOKIES</a></li>
+                    <li><a class="menu" href="">AVISO LEGAL</a></li>
+                    <li><a class="menu" href="">PROTECCION DE DATOS</a></li>
+                    <li><a class="menu" href="">MAPA DEL SITIO</a></li>
+                </ul>
+            </nav>
+            <div class="redes-sociales">
+                <p class="menu" >SIGUENOS EN</p>
+                <div class="redes">
+                    <img src="images/rs_facebook.png" alt="facebook">
+                    <img src="images/rs_twiter.png" alt="twitter">
+                    <img src="images/rs_youtube.png" alt="youtube">
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
